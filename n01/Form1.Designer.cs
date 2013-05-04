@@ -50,6 +50,9 @@
             this.tbxNumber_last = new System.Windows.Forms.TextBox();
             this.tbxLast = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.FirstForm = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupSimpleInt.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -259,11 +262,41 @@
             this.label7.TabIndex = 3;
             this.label7.Text = "Last Digit";
             // 
+            // FirstForm
+            // 
+            this.FirstForm.AutoSize = true;
+            this.FirstForm.Location = new System.Drawing.Point(361, 9);
+            this.FirstForm.Name = "FirstForm";
+            this.FirstForm.Size = new System.Drawing.Size(52, 13);
+            this.FirstForm.TabIndex = 11;
+            this.FirstForm.Text = "First Form";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(111, 9);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(52, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "First Form";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(610, 9);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(52, 13);
+            this.label10.TabIndex = 13;
+            this.label10.Text = "First Form";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(761, 397);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.FirstForm);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupSimpleInt);
@@ -276,6 +309,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -303,6 +337,9 @@
         private System.Windows.Forms.TextBox tbxNumber_last;
         private System.Windows.Forms.TextBox tbxLast;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label FirstForm;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }
 
